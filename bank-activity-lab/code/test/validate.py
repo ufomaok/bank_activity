@@ -33,7 +33,7 @@ UNDERLINE = '\033[4m'
 
 # Create a Metrics object
 file_path = os.path.join("data", "raw", "amzn.csv")
-metrics = StockMetrics(r"C:\Users\Uma\Desktop\bank_activity\bank-activity-lab\data\raw\amzn.csv")
+metrics = StockMetrics(file_path)
 
 
 def pt1():
