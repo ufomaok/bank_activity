@@ -29,13 +29,8 @@ class StockMetrics(StockData):
         for row in self.data:
             ...
 
-        return mean
+        return median
 
     def stddev03(self):
         """pt3
-        """
-        stddev = []
-        for row in self.data:
-            ...
-
-        return stddev       
+        """  
